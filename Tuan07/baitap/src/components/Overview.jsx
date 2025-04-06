@@ -5,23 +5,23 @@ const Overview = () => {
     <div className="overview">
       <h1>Overview</h1>
       <div className="stat-cards">
-        <div className="stat-card turnover">
+        <div style={{ backgroundColor:'#ffebee'}} className="stat-card turnover">
          
           <h3>Turnover</h3>
           <p className="value">$92,405</p>
-          <p className="change positive">+ 5.39% period of change</p>
+          <p style={{color:'green'}} className="change positive">+ 5.39% period of change</p>
         </div>
-        <div className="stat-card profit">
+        <div style={{ backgroundColor:'#e3f2fd'}} className="stat-card profit">
          
           <h3>Profit</h3>
           <p className="value">$32,218</p>
-          <p className="change positive">+ 5.39% period of change</p>
+          <p style={{color:'green'}} className="change positive">+ 5.39% period of change</p>
         </div>
-        <div className="stat-card new-customer">
+        <div style={{ backgroundColor:'#e8f5e9'}} className="stat-card new-customer">
          
           <h3>New customer</h3>
           <p className="value">298</p>
-          <p className="change positive">+ 6.84% period of change</p>
+          <p style={{color:'green'}} className="change positive">+ 6.84% period of change</p>
         </div>
       </div>
     </div>

@@ -62,12 +62,10 @@ const Menu = () => {
           </NavLink>
         </li>
       </ul>
-      <div className="version-box">
+      <div style={{textAlign: 'center'}} className="version-box">
         <img
-          style={{ width: '80%', height: 'auto' }}
-          src="./img/Group.png"
-          alt="Version illustration"
-        />
+          style={{ width: '80%', height: 'auto' }}  src="./img/Group.png"
+          />
         <p style={{ fontSize: '14px', fontWeight: 'bold', color: 'black' }}>
           V2.0 IS AVAILABLE
         </p>

@@ -13,7 +13,7 @@ const Table = () => {
   return (
     <div className="table-section">
       <div className="table-header">
-        <h2>DETAILED REPORT</h2>
+        <h2 style={{fontSize: '18px', color: '#333'}}>DETAILED REPORT</h2>
         <div className="table-actions">
           <button>Import</button>
           <button>Export</button>
@@ -34,7 +34,7 @@ const Table = () => {
         <tbody>
           {data.map((row, index) => (
             <tr key={index}>
-              <td><input type="checkbox" /></td>
+              <td><input type="checkbox"/></td>
               <td>{row.name}</td>
               <td>{row.company}</td>
               <td>{row.value}</td>
@@ -50,18 +50,16 @@ const Table = () => {
         </tbody>
       </table>
       <div className="pagination">
-        <p>63 results</p>
+        <p style={{fontSize:'14px', color:'black'}}>63 results</p>
         <div className="controls">
-          <button>&lt;</button>
           <button className="active">1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <span>...</span>
-          <button>10</button>
-          <button>11</button>
-          <button>&gt;</button>
-        </div>
+          <button style={{color:'green'}}>2</button>
+          <button style={{color:'green'}}>3</button>
+          <button style={{color:'green'}}>4</button>
+          <span style={{color:'green'}}>...</span>
+          <button style={{color:'green'}}>10</button>
+          <button style={{color:'green'}}>11</button>
+        </div>  
       </div>
     </div>
   );
