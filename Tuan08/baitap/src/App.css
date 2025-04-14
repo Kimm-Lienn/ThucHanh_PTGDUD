@@ -24,6 +24,8 @@
   flex: 1;
   padding: 20px;
   background-color: white;
+  overflow-y: auto; /* Cho phép cuộn dọc trong main-section */
+  height: 100vh;
 }
 .header {
   display: flex;
