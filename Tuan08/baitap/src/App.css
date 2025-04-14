@@ -12,12 +12,6 @@
   background-color:white;
   padding: 20px;
 }
-.menu .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f55e91;
-  margin-bottom: 20px;
-}
 .menu ul li {
   padding: 10px 0;
   cursor: pointer;
@@ -43,30 +37,24 @@
 .header-right input {
   margin-right: 200px;
   padding: 5px;
-}
-.overview h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #f46292;
-}
-.stat-card {
-  padding: 20px;
-  border-radius: 10px;
-  flex: 1;
+  width: 270px;
+  border-radius: 5px;
 }
 .stat-card h3 {
   font-size: 16px;
   margin-bottom: 10px;
 }
 .stat-card p {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 14px;
   margin-bottom: 5px;
 }
 .table-section {
   margin-top: 20px;
 }
-.table-section h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
+.stat-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
 }
+
