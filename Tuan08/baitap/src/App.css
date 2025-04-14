@@ -1,0 +1,72 @@
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu {
+  height: 100%;
+  width: 200px;
+  background-color:white;
+  padding: 20px;
+}
+.menu .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f55e91;
+  margin-bottom: 20px;
+}
+.menu ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+.version-box {
+  margin-top: 50px;
+  text-align: center;
+}
+.main-section {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-right input {
+  margin-right: 200px;
+  padding: 5px;
+}
+.overview h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f46292;
+}
+.stat-card {
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+.stat-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.stat-card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.table-section {
+  margin-top: 20px;
+}
+.table-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
