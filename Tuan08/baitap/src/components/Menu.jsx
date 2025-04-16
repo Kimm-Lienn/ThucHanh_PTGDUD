@@ -13,9 +13,7 @@ function Menu() {
             to="/dashboard"
             style={({ isActive }) => ({
               color: isActive ? '#fff' : 'black',
-              backgroundColor: isActive ? '#f55e91' : 'transparent',
-              display: 'block',
-              padding: '5px',
+              backgroundColor: isActive ? '#f55e91' : 'transparent', display: 'block',  padding: '5px',
               borderRadius: '5px',
               textDecoration: 'none',
             })}
@@ -28,9 +26,7 @@ function Menu() {
             to="/projects"
             style={({ isActive }) => ({
               color: isActive ? '#fff' : 'black',
-              backgroundColor: isActive ? '#f55e91' : 'transparent',
-              display: 'block',
-              padding: '5px',
+              backgroundColor: isActive ? '#f55e91' : 'transparent', display: 'block',   padding: '5px',
               borderRadius: '5px',
               textDecoration: 'none',
             })}
