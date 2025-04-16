@@ -17,7 +17,7 @@ function Table() {
           company: item.company,
           orderValue: item.orderValue,
           orderDate: item.oderDate, 
-          status: item.status,
+          status: item.status, 
         }));
         setReports(formattedData);
       })

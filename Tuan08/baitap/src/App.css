@@ -17,14 +17,14 @@
   cursor: pointer;
 }
 .version-box {
-  margin-top: 50px;
+  margin-bottom: 1000px;
   text-align: center;
 }
 .main-section {
   flex: 1;
   padding: 20px;
   background-color: white;
-  overflow-y: auto; /* Cho phép cuộn dọc trong main-section */
+  overflow-y: auto; 
   height: 100vh;
 }
 .header {
